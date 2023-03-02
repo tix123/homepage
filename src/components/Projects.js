@@ -15,7 +15,7 @@ import weatherTaiwan from "../img/taiwan_weather_small.png"
 import happyBirdFriends from "../img/happy_bird_friends_small.jpg"
 import lifeCountdown from "../img/life_countdown_small.png"
 
-const Project = () => {
+const Projects = () => {
 
     const textStyle = { fontWeight: "bold" };
 
@@ -25,7 +25,7 @@ const Project = () => {
 
     const contentStyle = { height: "150px" };
 
-    const cardStyle = { width: "300px", border: "1px solid #100" }
+    const cardStyle = { border: "1px solid #100" }
 
     return (
         <Box sx={{ padding: "20px" }}>
@@ -33,7 +33,7 @@ const Project = () => {
                 PROJECTS
             </Typography>
             <Grid container justifyContent="center">
-                <Grid item xs={12} md={9} xl={8}>
+                <Grid item xs={12} md={8} xl={7}>
 
                     <Grid
                         container
@@ -104,7 +104,7 @@ const Project = () => {
                                             <Typography variant="body2" sx={listStyle}>
                                                 <li>C#</li>
                                                 <li>Unity</li>
-                                                <li>Google play</li>
+                                                <li>Google Play Store</li>
                                             </Typography>
 
                                         </CardContent>
@@ -167,4 +167,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Projects

@@ -15,13 +15,13 @@ const Header = () => {
                     <Typography variant="h3" align="center" gutterBottom sx={textStyle}>
                         Hi, I am Sean.
                     </Typography>
-                    <Typography variant="h3" align="center" gutterBottom sx={textStyle}>
+                    <Typography variant="h4" align="center" gutterBottom sx={textStyle}>
                         I love to build things with software technologies.
                     </Typography>
                 </Grid>
                 <Grid item>
                     <Grid container spacing={2}>
-                        <Grid item>
+                        {/* <Grid item>
                             <Button
                                 variant="outlined"
                                 startIcon={<ContentPasteIcon />}
@@ -31,7 +31,7 @@ const Header = () => {
                             >
                                 Resume
                             </Button>
-                        </Grid>
+                        </Grid> */}
                         <Grid item>
                             <Button
                                 variant="outlined"
@@ -49,7 +49,6 @@ const Header = () => {
             </Grid>
         </div>
     )
-
 
 }
 
