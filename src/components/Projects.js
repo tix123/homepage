@@ -10,10 +10,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
 import NearMeIcon from '@mui/icons-material/NearMe';
 
-// Report image
+// Project image
 import weatherTaiwan from "../img/taiwan_weather_small.png"
 import happyBirdFriends from "../img/happy_bird_friends_small.jpg"
 import lifeCountdown from "../img/life_countdown_small.png"
+import coachingRightNow from "../img/coaching_right_now_mockup_small.png"
+import discuss from "../img/discuss_mockup_small.png"
+import mulliganFunding from "../img/mulligan_funding_mockup_small.png"
+
 
 const Projects = () => {
 
@@ -42,6 +46,148 @@ const Projects = () => {
                         // justifyContent="space-around"
                         alignItems="center"
                     >
+
+                        <Grid item xs={12} md={6} xl={4} >
+                            <Grid container justifyContent="center">
+                                <Grid item>
+                                    <Card sx={cardStyle}>
+                                        <CardMedia
+                                            component="img"
+                                            image={coachingRightNow}
+                                            alt="coaching_right_now_mockup"
+                                        />
+                                        <CardContent sx={contentStyle}>
+                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
+                                                Coaching Right Now
+                                            </Typography>
+
+                                            <Typography variant="body2" sx={listStyle}>
+                                                <li>WordPress</li>
+                                                <li>JavaScript</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </Typography>
+
+                                        </CardContent>
+                                        <CardActions sx={{ justifyContent: "center" }}>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<GitHubIcon />}
+                                                href="https://github.com/tix123/coaching-right-now-mockup"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Code
+                                            </Button>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<NearMeIcon />}
+                                                href="https://34.64.181.188"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Link
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid item xs={12} md={6} xl={4} >
+                            <Grid container justifyContent="center">
+                                <Grid item>
+                                    <Card sx={cardStyle}>
+                                        <CardMedia
+                                            component="img"
+                                            image={discuss}
+                                            alt="discuss_mockup"
+                                        />
+                                        <CardContent sx={contentStyle}>
+                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
+                                                Disscuss
+                                            </Typography>
+
+                                            <Typography variant="body2" sx={listStyle}>
+                                                <li>WordPress</li>
+                                                <li>JavaScript</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </Typography>
+
+                                        </CardContent>
+                                        <CardActions sx={{ justifyContent: "center" }}>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<GitHubIcon />}
+                                                href="https://github.com/tix123/discuss-mockup"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Code
+                                            </Button>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<NearMeIcon />}
+                                                href="https://34.106.187.195"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Link
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid item xs={12} md={6} xl={4} >
+                            <Grid container justifyContent="center">
+                                <Grid item>
+                                    <Card sx={cardStyle}>
+                                        <CardMedia
+                                            component="img"
+                                            image={mulliganFunding}
+                                            alt="mulligan_funding_mockup"
+                                        />
+                                        <CardContent sx={contentStyle}>
+                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
+                                                Mulligan Funding
+                                            </Typography>
+
+                                            <Typography variant="body2" sx={listStyle}>
+                                                <li>WordPress</li>
+                                                <li>JavaScript</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </Typography>
+
+                                        </CardContent>
+                                        <CardActions sx={{ justifyContent: "center" }}>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<GitHubIcon />}
+                                                href="https://github.com/tix123/mulligan-funding-mockup"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Code
+                                            </Button>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<NearMeIcon />}
+                                                href="https://35.236.206.74"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Link
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
                         <Grid item xs={12} md={6} xl={4} >
                             <Grid container justifyContent="center">
                                 <Grid item>
