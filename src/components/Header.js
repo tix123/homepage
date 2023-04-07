@@ -12,7 +12,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Header = () => {
 
-    const textStyle = { fontWeight: "bold" };
+    const textStyle = {
+        fontWeight: "bold",
+        fontFamily: '"Oleo Script", arial',
+    };
 
     const titleStyle = {
         position: "absolute",
@@ -44,7 +47,7 @@ const Header = () => {
 
                 <Grid item>
                     <Typography variant="h4" align="center" sx={textStyle}>
-                       Welcome to my portfolio
+                        Welcome to my portfolio
                     </Typography>
                 </Grid>
 
@@ -55,7 +58,7 @@ const Header = () => {
                 </Grid> */}
 
                 <Grid item>
-                    <Grid container spacing={2} sx={{marginTop:"20px"}}>
+                    <Grid container spacing={2} sx={{ marginTop: "20px" }}>
                         <Grid item>
                             <Button
                                 variant="contained"
@@ -64,7 +67,7 @@ const Header = () => {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                               Github
+                                Github
                             </Button>
                         </Grid>
                         <Grid item>
