@@ -63,7 +63,7 @@ const Header = () => {
                             <Button
                                 variant="contained"
                                 startIcon={<GitHubIcon />}
-                                href="#"
+                                href="https://github.com/tix123"
                                 rel="noreferrer"
                                 target="_blank"
                             >
