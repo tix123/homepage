@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.e6c13ad2.css",
-    "main.js": "/homepage/static/js/main.96963145.js",
+    "main.js": "/homepage/static/js/main.b7f318a8.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
+    "static/media/sea.jpg": "/homepage/static/media/sea.7032a3f6debf9566f9a1.jpg",
     "static/media/happy_bird_friends_small.jpg": "/homepage/static/media/happy_bird_friends_small.c31d8796d9ed391a69ff.jpg",
     "static/media/mulligan_funding_mockup_small.png": "/homepage/static/media/mulligan_funding_mockup_small.5e81b6e34df7317e8c59.png",
     "static/media/coaching_right_now_mockup_small.png": "/homepage/static/media/coaching_right_now_mockup_small.52f6016711f27e1628b3.png",
@@ -37,11 +38,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.e6c13ad2.css.map": "/homepage/static/css/main.e6c13ad2.css.map",
-    "main.96963145.js.map": "/homepage/static/js/main.96963145.js.map",
+    "main.b7f318a8.js.map": "/homepage/static/js/main.b7f318a8.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.96963145.js"
+    "static/js/main.b7f318a8.js"
   ]
 }
