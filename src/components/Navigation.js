@@ -38,7 +38,9 @@ const Navigation = (props) => {
     })
 
     const containerStyle = {
-        padding: "30px 30px",
+        padding: "1rem 0",
+        width: "95%",
+        margin: "0 auto"
     }
 
     return (

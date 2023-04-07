@@ -8,6 +8,7 @@ import SaitLogo from "../icons/sait-logo.svg"
 import PtkLogo from "../icons/ptk-logo.png"
 import Stack from '@mui/material/Stack';
 import BackgroundPicture from "../img/sea.jpg"
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Header = () => {
 
@@ -31,33 +32,41 @@ const Header = () => {
             <Box style={{ width: "100%", position: "relative", }}>
                 <img src={BackgroundPicture} alt="sait-logo" style={{ width: "100%", }} />
                 <Typography variant="h1" align="center" gutterBottom sx={titleStyle}>
-                    Sean Chen
+                    PORTFOLIO
                 </Typography>
             </Box>
             <Grid container direction="column" spacing={2} justifyContent="center" alignItems="center" sx={{ padding: "20px" }}>
                 <Grid item>
-                <Typography variant="h4" align="center" gutterBottom sx={textStyle}>
-                        Hi, I am a Front End Developer
+                    <Typography variant="h4" align="center" sx={textStyle}>
+                        Hi, I am Sean Chen
                     </Typography>
-                    <Typography variant="h4" align="center" gutterBottom sx={textStyle}>
-                        I love to build things with software technologies
-                    </Typography>
-
                 </Grid>
 
                 <Grid item>
-                    <Grid container spacing={2} >
-                        {/* <Grid item>
+                    <Typography variant="h4" align="center" sx={textStyle}>
+                       Welcome to my portfolio
+                    </Typography>
+                </Grid>
+
+                {/* <Grid item>
+                    <Typography variant="h5" align="center" sx={textStyle}>
+                        I love to build things with software technologies
+                    </Typography>
+                </Grid> */}
+
+                <Grid item>
+                    <Grid container spacing={2} sx={{marginTop:"20px"}}>
+                        <Grid item>
                             <Button
-                                variant="outlined"
-                                startIcon={<ContentPasteIcon />}
+                                variant="contained"
+                                startIcon={<GitHubIcon />}
                                 href="#"
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                Resume
+                               Github
                             </Button>
-                        </Grid> */}
+                        </Grid>
                         <Grid item>
                             <Button
                                 variant="contained"

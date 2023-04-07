@@ -25,6 +25,7 @@ const Links = () => {
                         href="https://github.com/tix123"
                         rel="noreferrer"
                         target="_blank"
+                        size="large"
                     >
                         GitHub
                     </Button>
@@ -37,7 +38,7 @@ const Links = () => {
                         href="https://www.linkedin.com/in/sean-chen-canada/"
                         rel="noreferrer"
                         target="_blank"
-
+                        size="large"
                     >
                         Linkedin
                     </Button>
