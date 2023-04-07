@@ -1,11 +1,13 @@
 // Material UI components
 import Box from '@mui/material/Box';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme, responsiveFontSizes, } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import Fab from '@mui/material/Fab';                                                                
+import PublishIcon from '@mui/icons-material/Publish';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 // Section components
 import Header from "./components/Header";
@@ -37,16 +39,13 @@ function App() {
         });
     }, []);
 
-    // console.log("projectSection",projectSection)
-    // console.log("showTopBtn",showTopBtn)
-    
-   
-
-    const theme = createTheme({
+    const theme = responsiveFontSizes(createTheme({
         palette: {
             mode: mode,
         },
-    });
+    }));
+
+    // theme = responsiveFontSizes(theme);
 
     const goToTop = () => {
         window.scrollTo({
@@ -54,12 +53,6 @@ function App() {
             behavior: 'smooth',
         });
     };
-
-    // const darkTheme = createTheme({
-    //     palette: {
-    //         mode: 'light',
-    //     },
-    // });
 
 
     const componentStyle = {
@@ -78,7 +71,7 @@ function App() {
                     linkSection={linkSection}
                 />
             </Box>
-            <Box style={componentStyle}>
+            <Box style={{marginTop: "40px"}}>
                 <Header />
             </Box>
             <Box style={componentStyle} ref={projectSection}>
@@ -103,7 +96,7 @@ function App() {
                         right: "30px",
                         bottom: "70px"
                     }}>
-                    <KeyboardDoubleArrowUpIcon />
+                    <KeyboardArrowUpIcon sx={{ fontSize: 45 }} />
                 </Fab>
             ) : (
                 <></>

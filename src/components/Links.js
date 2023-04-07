@@ -13,7 +13,7 @@ const Links = () => {
 
     return (
         <Box sx={{ padding: "20px" }}>
-            <Typography variant="h3" align="center" gutterBottom sx={textStyle}>
+            <Typography variant="h2" align="center" gutterBottom sx={textStyle}>
                 LINKS
             </Typography>
 

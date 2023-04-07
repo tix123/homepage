@@ -10,7 +10,8 @@ import { styled } from '@mui/material/styles';
 const Navigation = (props) => {
 
     const textStyle = {
-        fontWeight: "bold"
+        fontWeight: "bold",
+        // display: { xs: "none", sm: "block" },
     }
 
     const setLightMode = () => {
@@ -29,39 +30,56 @@ const Navigation = (props) => {
     };
 
     const NaviButton = styled(Button)({
+        // fontSize: "18px",
+        // fontWeight: "bold",
         "&:hover": {
             backgroundColor: "transparent",
-          },
+        },
     })
+
+    const containerStyle = {
+        padding: "30px 30px",
+    }
+
     return (
-        <Grid container justifyContent="space-between" sx={{ padding: "20px" }}>
+        <Grid container justifyContent="space-between" alignItems="center" sx={containerStyle}>
+
             <Grid item>
-                <Typography variant="h6" align="center" gutterBottom sx={textStyle}>
-                    Sean Chen's Portfolio
-                </Typography>
-            </Grid>
-            <Grid item>
-                <Stack direction="row" spacing={2}>
+                <Stack direction="row" spacing={3}>
                     <NaviButton onClick={() => scrollDown(props.projectSection)}>
-                        PROJECTS
+                        <Typography variant="h6" sx={textStyle}>
+                            PROJECTS
+                        </Typography>
                     </NaviButton>
                     <NaviButton onClick={() => scrollDown(props.skillSection)}>
-                        SKILLS
+                        <Typography variant="h6" sx={textStyle}>
+                            SKILLS
+                        </Typography>
                     </NaviButton>
                     <NaviButton onClick={() => scrollDown(props.linkSection)}>
-                        LINKS
+                        <Typography variant="h6" sx={textStyle}>
+                            LINKS
+                        </Typography>
                     </NaviButton>
-                    {props.mode == "dark" ? (
-                        <IconButton onClick={setLightMode}>
-                            <LightModeIcon />
-                        </IconButton>
-                    ) : (
-                        <IconButton onClick={setDarkMode}>
-                            <DarkModeIcon />
-                        </IconButton>
-                    )}
+
                 </Stack>
             </Grid>
+
+            <Grid item>
+                {/* <Typography variant="h5" align="center" gutterBottom sx={textStyle}>
+                    Sean Chen's Portfolio
+                </Typography> */}
+                {props.mode == "dark" ? (
+                    <IconButton onClick={setLightMode} >
+                        <LightModeIcon fontSize="large" />
+                    </IconButton>
+                ) : (
+                    <IconButton onClick={setDarkMode} >
+                        <DarkModeIcon fontSize="large" />
+                    </IconButton>
+                )}
+            </Grid>
+
         </Grid>
     )
 }

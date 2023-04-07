@@ -33,7 +33,7 @@ const Projects = () => {
 
     return (
         <Box sx={{ padding: "20px" }}>
-            <Typography variant="h3" align="center" gutterBottom sx={textStyle}>
+            <Typography variant="h2" align="center" gutterBottom sx={textStyle}>
                 PROJECTS
             </Typography>
             <Grid container justifyContent="center">
@@ -58,7 +58,7 @@ const Projects = () => {
                                         />
                                         <CardContent sx={contentStyle}>
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
-                                                Coaching Right Now
+                                                WordPress Mockup
                                             </Typography>
 
                                             <Typography variant="body2" sx={listStyle}>
@@ -105,7 +105,7 @@ const Projects = () => {
                                         />
                                         <CardContent sx={contentStyle}>
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
-                                                Disscuss
+                                                WordPress Mockup
                                             </Typography>
 
                                             <Typography variant="body2" sx={listStyle}>
@@ -152,7 +152,7 @@ const Projects = () => {
                                         />
                                         <CardContent sx={contentStyle}>
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
-                                                Mulligan Funding
+                                                WordPress Mockup
                                             </Typography>
 
                                             <Typography variant="body2" sx={listStyle}>
