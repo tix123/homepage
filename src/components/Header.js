@@ -7,59 +7,46 @@ import Box from "@mui/material/Box";
 import SaitLogo from "../icons/sait-logo.svg"
 import PtkLogo from "../icons/ptk-logo.png"
 import Stack from '@mui/material/Stack';
+import BackgroundPicture from "../img/sea.jpg"
 
 const Header = () => {
 
     const textStyle = { fontWeight: "bold" };
 
+    const titleStyle = {
+        position: "absolute",
+        top: "50%",
+        left: "50%",
+        zIndex: 1,
+        color: "#fff",
+        transform: "translateX(-50%) translateY(-50%)",
+        letterSpacing: "5px",
+        width: "100%",
+        textAlign: "center",
+        fontWeight: "bold"
+    };
+
     return (
         <Box>
+            <Box style={{ width: "100%", position: "relative", }}>
+                <img src={BackgroundPicture} alt="sait-logo" style={{ width: "100%", }} />
+                <Typography variant="h1" align="center" gutterBottom sx={titleStyle}>
+                    Sean Chen
+                </Typography>
+            </Box>
             <Grid container direction="column" spacing={2} justifyContent="center" alignItems="center" sx={{ padding: "20px" }}>
                 <Grid item>
-                    <Typography variant="h2" align="center" gutterBottom sx={textStyle}>
-                        Hi, I am Sean.
+                <Typography variant="h4" align="center" gutterBottom sx={textStyle}>
+                        Hi, I am a Front End Developer
                     </Typography>
                     <Typography variant="h4" align="center" gutterBottom sx={textStyle}>
-                        I love to build things with software technologies.
+                        I love to build things with software technologies
                     </Typography>
 
                 </Grid>
 
                 <Grid item>
-                    <Grid container spacing={2} justifyContent="center" alignItems="center">
-                        <Grid item>
-                            <Typography variant="h4" align="center" sx={textStyle}>
-                                Alumni of
-                            </Typography>
-                        </Grid>
-                        <Grid item>
-                            <Box style={{ width: "230px" }}>
-                                <img src={SaitLogo} alt="sait-logo" style={{ width: "100%" }} />
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Grid>
-
-                <Grid item>
-                    <Grid container spacing={2} justifyContent="center" alignItems="center">
-                        <Grid item>
-                            <Box style={{ width: "40px" }}>
-                                <img src={PtkLogo} alt="sait-logo" style={{ width: "100%" }} />
-                            </Box>
-                        </Grid>
-                        <Grid item>
-                            <Typography variant="h5" sx={textStyle}>
-                                Phi Theta Kappa
-                            </Typography>
-                            <Typography variant="h6" sx={textStyle}>
-                                Honor Society Member
-                            </Typography>
-                        </Grid>
-                    </Grid>
-                </Grid>
-
-                <Grid item>
-                    <Grid container spacing={2} sx={{ margin: "40px 0" }}>
+                    <Grid container spacing={2} >
                         {/* <Grid item>
                             <Button
                                 variant="outlined"

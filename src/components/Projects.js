@@ -25,9 +25,11 @@ const Projects = () => {
 
     const titleStyle = { fontWeight: "bold" };
 
-    const listStyle = { color: "#666" };
+    const listStyle = { 
+        // color: "#666" 
+    };
 
-    const contentStyle = { height: "150px" };
+    const contentStyle = { height: "180px" };
 
     const cardStyle = { border: "1px solid #100" }
 
@@ -47,7 +49,7 @@ const Projects = () => {
                         alignItems="center"
                     >
 
-                        <Grid item xs={12} md={6} xl={4} >
+                        <Grid item xs={12} md={6} xl={4}>
                             <Grid container justifyContent="center">
                                 <Grid item>
                                     <Card sx={cardStyle}>
@@ -60,7 +62,7 @@ const Projects = () => {
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
                                                 WordPress Mockup
                                             </Typography>
-
+                                           
                                             <Typography variant="body2" sx={listStyle}>
                                                 <li>WordPress</li>
                                                 <li>JavaScript</li>

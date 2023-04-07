@@ -69,9 +69,9 @@ const Navigation = (props) => {
                 {/* <Typography variant="h5" align="center" gutterBottom sx={textStyle}>
                     Sean Chen's Portfolio
                 </Typography> */}
-                {props.mode == "dark" ? (
+                {props.mode === "dark" ? (
                     <IconButton onClick={setLightMode} >
-                        <LightModeIcon fontSize="large" />
+                        <LightModeIcon fontSize="large"   />
                     </IconButton>
                 ) : (
                     <IconButton onClick={setDarkMode} >

@@ -71,7 +71,7 @@ function App() {
                     linkSection={linkSection}
                 />
             </Box>
-            <Box style={{marginTop: "40px"}}>
+            <Box >
                 <Header />
             </Box>
             <Box style={componentStyle} ref={projectSection}>
