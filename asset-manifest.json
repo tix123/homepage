@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.e6c13ad2.css",
-    "main.js": "/homepage/static/js/main.3510363f.js",
+    "main.js": "/homepage/static/js/main.96963145.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
     "static/media/happy_bird_friends_small.jpg": "/homepage/static/media/happy_bird_friends_small.c31d8796d9ed391a69ff.jpg",
     "static/media/mulligan_funding_mockup_small.png": "/homepage/static/media/mulligan_funding_mockup_small.5e81b6e34df7317e8c59.png",
@@ -9,8 +9,10 @@
     "static/media/taiwan_weather_small.png": "/homepage/static/media/taiwan_weather_small.6425063b3c9bbe926e35.png",
     "static/media/mariadb-logo-vert_blue-transparent.png": "/homepage/static/media/mariadb-logo-vert_blue-transparent.4f1043e311d01fcb4bab.png",
     "static/media/discuss_mockup_small.png": "/homepage/static/media/discuss_mockup_small.23553a4ce88083553050.png",
+    "static/media/ptk-logo.png": "/homepage/static/media/ptk-logo.a963fc5893bdb15214e8.png",
     "static/media/HeidiSQL_logo_image.png": "/homepage/static/media/HeidiSQL_logo_image.2d86a973025e35f2397e.png",
     "static/media/csp_logo.png": "/homepage/static/media/csp_logo.617a770998f97916be42.png",
+    "static/media/sait-logo.svg": "/homepage/static/media/sait-logo.6892e7b62737acfe12638b5cb5e47a2a.svg",
     "static/media/android-original.svg": "/homepage/static/media/android-original.e31d05326d79882d2a23ed40aaf4a342.svg",
     "static/media/mysql-original.svg": "/homepage/static/media/mysql-original.ebf5eeaef302d497971c5bbd898566e4.svg",
     "static/media/react-original.svg": "/homepage/static/media/react-original.4e0c97009b885bfa75c5412262a46f5f.svg",
@@ -35,11 +37,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.e6c13ad2.css.map": "/homepage/static/css/main.e6c13ad2.css.map",
-    "main.3510363f.js.map": "/homepage/static/js/main.3510363f.js.map",
+    "main.96963145.js.map": "/homepage/static/js/main.96963145.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3510363f.js"
+    "static/js/main.96963145.js"
   ]
 }
