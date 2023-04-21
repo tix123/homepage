@@ -89,7 +89,7 @@ const Skills = () => {
             </Typography>
             <Grid container justifyContent="center">
 
-                <Grid item xs={12} md={8} xl={6}>
+                <Grid item xs={12} sm={10} md={8} xl={7}>
 
                     <Grid
                         container

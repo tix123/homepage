@@ -41,13 +41,7 @@ const Header = () => {
             <Grid container direction="column" spacing={2} justifyContent="center" alignItems="center" sx={{ padding: "20px" }}>
                 <Grid item>
                     <Typography variant="h4" align="center" sx={textStyle}>
-                        Hi, I am Sean Chen
-                    </Typography>
-                </Grid>
-
-                <Grid item>
-                    <Typography variant="h4" align="center" sx={textStyle}>
-                        Welcome to my portfolio
+                        Hi, I am Sean Chen. Welcome to my portfolio.
                     </Typography>
                 </Grid>
 

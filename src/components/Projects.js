@@ -25,7 +25,7 @@ const Projects = () => {
 
     const titleStyle = { fontWeight: "bold" };
 
-    const listStyle = { 
+    const listStyle = {
         // color: "#666" 
     };
 
@@ -39,7 +39,7 @@ const Projects = () => {
                 PROJECTS
             </Typography>
             <Grid container justifyContent="center">
-                <Grid item xs={12} md={8} xl={7}>
+                <Grid item xs={12} md={11} xl={10}>
 
                     <Grid
                         container
@@ -49,7 +49,89 @@ const Projects = () => {
                         alignItems="center"
                     >
 
-                        <Grid item xs={12} md={6} xl={4}>
+                        <Grid item xs={12} sm={6} md={4} xl={3} >
+                            <Grid container justifyContent="center">
+                                <Grid item>
+                                    <Card sx={cardStyle}>
+                                        <CardMedia
+                                            component="img"
+                                            image={weatherTaiwan}
+                                            alt="Current Weather for Taiwan"
+                                        />
+                                        <CardContent sx={contentStyle}>
+                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
+                                                Taiwan Weather Report
+                                            </Typography>
+
+                                            <Typography variant="body2" sx={listStyle}>
+                                                <li>Google map API</li>
+                                                <li>Taiwan open weather API</li>
+                                                <li>React</li>
+                                            </Typography>
+
+                                        </CardContent>
+                                        <CardActions sx={{ justifyContent: "center" }}>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<GitHubIcon />}
+                                                href="https://github.com/tix123/taiwan-weather-public"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Code
+                                            </Button>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<NearMeIcon />}
+                                                href="https://weathertaiwan.netlify.app/"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Link
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid item xs={12} sm={6} md={4} xl={3}>
+                            <Grid container justifyContent="center">
+                                <Grid item>
+                                    <Card sx={cardStyle}>
+                                        <CardMedia
+                                            component="img"
+                                            image={happyBirdFriends}
+                                            alt="Happy Bird Friends"
+                                        />
+                                        <CardContent sx={contentStyle}>
+                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
+                                                Happy Bird Friends
+                                            </Typography>
+                                            <Typography variant="body2" sx={listStyle}>
+                                                <li>C#</li>
+                                                <li>Unity</li>
+                                                <li>Google Play Store</li>
+                                            </Typography>
+
+                                        </CardContent>
+                                        <CardActions sx={{ justifyContent: "center" }}>
+                                            <Button
+                                                variant="outlined"
+                                                startIcon={<NearMeIcon />}
+                                                href="https://play.google.com/store/apps/details?id=com.SeanChen.HappyBirdFriends"
+                                                rel="noreferrer"
+                                                target="_blank"
+                                            >
+                                                Link
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid item xs={12} sm={6} md={4} xl={3}>
                             <Grid container justifyContent="center">
                                 <Grid item>
                                     <Card sx={cardStyle}>
@@ -62,7 +144,7 @@ const Projects = () => {
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
                                                 WordPress Mockup
                                             </Typography>
-                                           
+
                                             <Typography variant="body2" sx={listStyle}>
                                                 <li>WordPress</li>
                                                 <li>JavaScript</li>
@@ -96,7 +178,7 @@ const Projects = () => {
                             </Grid>
                         </Grid>
 
-                        <Grid item xs={12} md={6} xl={4} >
+                        <Grid item xs={12} sm={6} md={4} xl={3} >
                             <Grid container justifyContent="center">
                                 <Grid item>
                                     <Card sx={cardStyle}>
@@ -143,7 +225,7 @@ const Projects = () => {
                             </Grid>
                         </Grid>
 
-                        <Grid item xs={12} md={6} xl={4} >
+                        <Grid item xs={12} sm={6} md={4} xl={3} >
                             <Grid container justifyContent="center">
                                 <Grid item>
                                     <Card sx={cardStyle}>
@@ -190,89 +272,9 @@ const Projects = () => {
                             </Grid>
                         </Grid>
 
-                        <Grid item xs={12} md={6} xl={4} >
-                            <Grid container justifyContent="center">
-                                <Grid item>
-                                    <Card sx={cardStyle}>
-                                        <CardMedia
-                                            component="img"
-                                            image={weatherTaiwan}
-                                            alt="Current Weather for Taiwan"
-                                        />
-                                        <CardContent sx={contentStyle}>
-                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
-                                                Weather Report
-                                            </Typography>
 
-                                            <Typography variant="body2" sx={listStyle}>
-                                                <li>Google map API</li>
-                                                <li>Taiwan open weather API</li>
-                                                <li>React</li>
-                                            </Typography>
 
-                                        </CardContent>
-                                        <CardActions sx={{ justifyContent: "center" }}>
-                                            <Button
-                                                variant="outlined"
-                                                startIcon={<GitHubIcon />}
-                                                href="https://github.com/tix123/taiwan-weather-public"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                            >
-                                                Code
-                                            </Button>
-                                            <Button
-                                                variant="outlined"
-                                                startIcon={<NearMeIcon />}
-                                                href="https://weathertaiwan.netlify.app/"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                            >
-                                                Link
-                                            </Button>
-                                        </CardActions>
-                                    </Card>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-
-                        <Grid item xs={12} md={6} xl={4}>
-                            <Grid container justifyContent="center">
-                                <Grid item>
-                                    <Card sx={cardStyle}>
-                                        <CardMedia
-                                            component="img"
-                                            image={happyBirdFriends}
-                                            alt="Happy Bird Friends"
-                                        />
-                                        <CardContent sx={contentStyle}>
-                                            <Typography variant="h6" sx={titleStyle} gutterBottom>
-                                                Happy Bird Friends
-                                            </Typography>
-                                            <Typography variant="body2" sx={listStyle}>
-                                                <li>C#</li>
-                                                <li>Unity</li>
-                                                <li>Google Play Store</li>
-                                            </Typography>
-
-                                        </CardContent>
-                                        <CardActions sx={{ justifyContent: "center" }}>
-                                            <Button
-                                                variant="outlined"
-                                                startIcon={<NearMeIcon />}
-                                                href="https://play.google.com/store/apps/details?id=com.SeanChen.HappyBirdFriends"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                            >
-                                                Link
-                                            </Button>
-                                        </CardActions>
-                                    </Card>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-
-                        <Grid item xs={12} md={6} xl={4}>
+                        <Grid item xs={12} sm={6} md={4} xl={3}>
                             <Grid container justifyContent="center">
                                 <Grid item>
                                     <Card sx={cardStyle}>
