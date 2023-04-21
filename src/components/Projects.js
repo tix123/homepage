@@ -31,7 +31,10 @@ const Projects = () => {
 
     const contentStyle = { height: "180px" };
 
-    const cardStyle = { border: "1px solid #100" }
+    const cardStyle = { 
+        border: "1px solid #100",
+        borderColor:'text.disabled'
+     }
 
     return (
         <Box sx={{ padding: "20px" }}>

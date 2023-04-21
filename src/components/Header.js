@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 import SaitLogo from "../icons/sait-logo.svg"
 import PtkLogo from "../icons/ptk-logo.png"
 import Stack from '@mui/material/Stack';
-import BackgroundPicture from "../img/sea.jpg"
+import BackgroundPicture from "../img/background.jpg"
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Header = () => {
@@ -39,11 +39,11 @@ const Header = () => {
                 </Typography>
             </Box>
             <Grid container direction="column" spacing={2} justifyContent="center" alignItems="center" sx={{ padding: "20px" }}>
-                <Grid item>
+                {/* <Grid item>
                     <Typography variant="h4" align="center" sx={textStyle}>
                         Hi, I am Sean Chen. Welcome to my portfolio.
                     </Typography>
-                </Grid>
+                </Grid> */}
 
                 {/* <Grid item>
                     <Typography variant="h5" align="center" sx={textStyle}>
@@ -51,7 +51,7 @@ const Header = () => {
                     </Typography>
                 </Grid> */}
 
-                <Grid item>
+                {/* <Grid item>
                     <Grid container spacing={2} sx={{ marginTop: "20px" }}>
                         <Grid item>
                             <Button
@@ -77,7 +77,8 @@ const Header = () => {
                         </Grid>
                     </Grid>
 
-                </Grid>
+                </Grid> */}
+                
             </Grid>
         </Box>
     )

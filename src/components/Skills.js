@@ -34,6 +34,7 @@ import WordPress from "../icons/wordpress-plain.svg"
 import AdobeXD from "../icons/xd-line.svg"
 
 
+
 const Skills = () => {
 
     const textStyle = {
@@ -43,7 +44,9 @@ const Skills = () => {
     const cardStyle = {
         display: 'flex',
         padding: "2px",
-        border: "1px solid #000"
+        border: "1px solid",
+        borderColor:'text.disabled'
+        // bgcolor: 'text.disabled'
     }
 
     const boxStyle = {
