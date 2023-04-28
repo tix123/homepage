@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import NearMeIcon from '@mui/icons-material/NearMe';
 
 // Project image
-import weatherTaiwan from "../img/taiwan_weather_small.png"
+import weatherTaiwan from "../img/taiwan_weather_small.jpg"
 import happyBirdFriends from "../img/happy_bird_friends_small.jpg"
 import lifeCountdown from "../img/life_countdown_small.png"
 import coachingRightNow from "../img/coaching_right_now_mockup_small.png"
@@ -59,7 +59,7 @@ const Projects = () => {
                                         <CardMedia
                                             component="img"
                                             image={weatherTaiwan}
-                                            alt="Current Weather for Taiwan"
+                                            alt="Taiwan Weather Report "
                                         />
                                         <CardContent sx={contentStyle}>
                                             <Typography variant="h6" sx={titleStyle} gutterBottom>
@@ -74,7 +74,7 @@ const Projects = () => {
 
                                         </CardContent>
                                         <CardActions sx={{ justifyContent: "center" }}>
-                                            <Button
+                                            {/* <Button
                                                 variant="outlined"
                                                 startIcon={<GitHubIcon />}
                                                 href="https://github.com/tix123/taiwan-weather-public"
@@ -82,7 +82,7 @@ const Projects = () => {
                                                 target="_blank"
                                             >
                                                 Code
-                                            </Button>
+                                            </Button> */}
                                             <Button
                                                 variant="outlined"
                                                 startIcon={<NearMeIcon />}
