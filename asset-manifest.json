@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.a94feb9a.css",
-    "main.js": "/homepage/static/js/main.82d37752.js",
+    "main.js": "/homepage/static/js/main.a54ad10e.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
     "static/media/background.jpg": "/homepage/static/media/background.7487619b5c64f7a1886f.jpg",
     "static/media/happy_bird_friends_small.jpg": "/homepage/static/media/happy_bird_friends_small.c31d8796d9ed391a69ff.jpg",
+    "static/media/taiwan_weather_small.jpg": "/homepage/static/media/taiwan_weather_small.08d40a05ecff98ee5b7a.jpg",
     "static/media/mulligan_funding_mockup_small.png": "/homepage/static/media/mulligan_funding_mockup_small.5e81b6e34df7317e8c59.png",
     "static/media/coaching_right_now_mockup_small.png": "/homepage/static/media/coaching_right_now_mockup_small.52f6016711f27e1628b3.png",
-    "static/media/taiwan_weather_small.png": "/homepage/static/media/taiwan_weather_small.6425063b3c9bbe926e35.png",
     "static/media/mariadb-logo-vert_blue-transparent.png": "/homepage/static/media/mariadb-logo-vert_blue-transparent.4f1043e311d01fcb4bab.png",
     "static/media/discuss_mockup_small.png": "/homepage/static/media/discuss_mockup_small.23553a4ce88083553050.png",
     "static/media/ptk-logo.png": "/homepage/static/media/ptk-logo.a963fc5893bdb15214e8.png",
@@ -38,11 +38,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.a94feb9a.css.map": "/homepage/static/css/main.a94feb9a.css.map",
-    "main.82d37752.js.map": "/homepage/static/js/main.82d37752.js.map",
+    "main.a54ad10e.js.map": "/homepage/static/js/main.a54ad10e.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a94feb9a.css",
-    "static/js/main.82d37752.js"
+    "static/js/main.a54ad10e.js"
   ]
 }
