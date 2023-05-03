@@ -70,11 +70,12 @@ const Projects = () => {
                                                 <li>Google map API</li>
                                                 <li>Taiwan open weather API</li>
                                                 <li>React</li>
+                                                <li>Redux</li>
                                             </Typography>
 
                                         </CardContent>
                                         <CardActions sx={{ justifyContent: "center" }}>
-                                            {/* <Button
+                                            <Button
                                                 variant="outlined"
                                                 startIcon={<GitHubIcon />}
                                                 href="https://github.com/tix123/taiwan-weather-public"
@@ -82,7 +83,7 @@ const Projects = () => {
                                                 target="_blank"
                                             >
                                                 Code
-                                            </Button> */}
+                                            </Button>
                                             <Button
                                                 variant="outlined"
                                                 startIcon={<NearMeIcon />}
