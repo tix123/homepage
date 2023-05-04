@@ -17,7 +17,7 @@ import lifeCountdown from "../img/life_countdown_small.png"
 import coachingRightNow from "../img/coaching_right_now_mockup_small.png"
 import discuss from "../img/discuss_mockup_small.png"
 import mulliganFunding from "../img/mulligan_funding_mockup_small.png"
-
+import lodgifyMockup from "../img/lodgify_mockup.jpg"
 
 const Projects = () => {
 
@@ -95,6 +95,18 @@ const Projects = () => {
             ],
             code_url: "https://github.com/tix123/mulligan-funding-mockup",
             link_url: "https://35.236.206.74"
+        },
+        {
+            title: "Lodgify Mockup",
+            image: lodgifyMockup,
+            skills: [
+                "React",
+                "styled-components",
+                "HTML",
+                "CSS",
+            ],
+            code_url: "https://github.com/tix123/lodgify-mockup",
+            link_url: "https://tix123.github.io/lodgify-mockup/"
         },
         {
             title: "Life Countdown",
