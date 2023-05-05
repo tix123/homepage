@@ -18,6 +18,7 @@ import coachingRightNow from "../img/coaching_right_now_mockup_small.png"
 import discuss from "../img/discuss_mockup_small.png"
 import mulliganFunding from "../img/mulligan_funding_mockup_small.png"
 import lodgifyMockup from "../img/lodgify_mockup.jpg"
+import logisticsCompany from "../img/logistics_company.jpg"
 
 const Projects = () => {
 
@@ -95,6 +96,18 @@ const Projects = () => {
             ],
             code_url: "https://github.com/tix123/mulligan-funding-mockup",
             link_url: "https://35.236.206.74"
+        },
+        {
+            title: "Logistics Company",
+            image: logisticsCompany,
+            skills: [
+                "React",
+                "styled-components",
+                "HTML",
+                "CSS",
+            ],
+            code_url: "https://github.com/tix123/logistics-company",
+            link_url: "https://tix123.github.io/logistics-company/"
         },
         {
             title: "Lodgify Mockup",
