@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.a94feb9a.css",
-    "main.js": "/homepage/static/js/main.5d480203.js",
+    "main.js": "/homepage/static/js/main.649e1647.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
     "static/media/background.jpg": "/homepage/static/media/background.7487619b5c64f7a1886f.jpg",
     "static/media/happy_bird_friends_small.jpg": "/homepage/static/media/happy_bird_friends_small.c31d8796d9ed391a69ff.jpg",
+    "static/media/logistics_company.jpg": "/homepage/static/media/logistics_company.5d43d4c002a97e01bb96.jpg",
     "static/media/taiwan_weather_small.jpg": "/homepage/static/media/taiwan_weather_small.08d40a05ecff98ee5b7a.jpg",
     "static/media/mulligan_funding_mockup_small.png": "/homepage/static/media/mulligan_funding_mockup_small.5e81b6e34df7317e8c59.png",
     "static/media/coaching_right_now_mockup_small.png": "/homepage/static/media/coaching_right_now_mockup_small.52f6016711f27e1628b3.png",
@@ -39,11 +40,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.a94feb9a.css.map": "/homepage/static/css/main.a94feb9a.css.map",
-    "main.5d480203.js.map": "/homepage/static/js/main.5d480203.js.map",
+    "main.649e1647.js.map": "/homepage/static/js/main.649e1647.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a94feb9a.css",
-    "static/js/main.5d480203.js"
+    "static/js/main.649e1647.js"
   ]
 }
