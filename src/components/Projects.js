@@ -11,12 +11,9 @@ import Button from '@mui/material/Button';
 import NearMeIcon from '@mui/icons-material/NearMe';
 
 // Project image
-import taiwanWeatherReport from "../img/taiwan_weather_small.jpg"
-import happyBirdFriends from "../img/happy_bird_friends_small.jpg"
-import lifeCountdown from "../img/life_countdown_small.png"
-import coachingRightNow from "../img/coaching_right_now_mockup_small.png"
-import discuss from "../img/discuss_mockup_small.png"
-import mulliganFunding from "../img/mulligan_funding_mockup_small.png"
+import taiwanWeatherReport from "../img/taiwan_weather.jpg"
+import happyBirdFriends from "../img/happy_bird_friends.jpg"
+import lifeCountdown from "../img/life_countdown.png"
 import lodgifyMockup from "../img/lodgify_mockup.jpg"
 import logisticsCompany from "../img/logistics_company.jpg"
 
@@ -45,7 +42,8 @@ const Projects = () => {
                 "Google map API",
                 "Taiwan open weather API",
                 "React",
-                "Redux"
+                "Redux",
+                "Material UI"
             ],
             code_url: "https://github.com/tix123/taiwan-weather-public",
             link_url: "https://weathertaiwan.netlify.app/"
@@ -60,42 +58,6 @@ const Projects = () => {
             ],
             code_url: null,
             link_url: "https://play.google.com/store/apps/details?id=com.SeanChen.HappyBirdFriends"
-        },
-        {
-            title: "WordPress Mockup",
-            image: coachingRightNow,
-            skills: [
-                "WordPress",
-                "JavaScript",
-                "HTML",
-                "CSS",
-            ],
-            code_url: "https://github.com/tix123/coaching-right-now-mockup",
-            link_url: "https://34.64.181.188"
-        },
-        {
-            title: "WordPress Mockup",
-            image: discuss,
-            skills: [
-                "WordPress",
-                "JavaScript",
-                "HTML",
-                "CSS",
-            ],
-            code_url: "https://github.com/tix123/discuss-mockup",
-            link_url: "https://34.106.187.195"
-        },
-        {
-            title: "WordPress Mockup",
-            image: mulliganFunding,
-            skills: [
-                "WordPress",
-                "JavaScript",
-                "HTML",
-                "CSS",
-            ],
-            code_url: "https://github.com/tix123/mulligan-funding-mockup",
-            link_url: "https://35.236.206.74"
         },
         {
             title: "Logistics Company",
