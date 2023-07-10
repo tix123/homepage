@@ -1,6 +1,6 @@
 ## Link
 
-Visit the website at tix123.github.io/homepage/
+Visit the website at https://tix123.github.io/homepage/
 
 ## Screenshot
 
