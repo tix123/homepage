@@ -12,11 +12,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Header = () => {
 
-    const textStyle = {
-        fontWeight: "bold",
-        fontFamily: '"Oleo Script", arial',
-    };
-
     const titleStyle = {
         position: "absolute",
         top: "50%",
@@ -30,10 +25,15 @@ const Header = () => {
         fontWeight: "bold"
     };
 
+    const headerContainer = {
+        width: "100%",
+        position: "relative",
+    }
+
     return (
         <Box>
-            <Box style={{ width: "100%", position: "relative", }}>
-                <img src={BackgroundPicture} alt="hero-pic" style={{ width: "100%", }} />
+            <Box style={headerContainer}>
+                <img src={BackgroundPicture} className="head-picture" alt="hero-pic" />
                 <Typography variant="h1" align="center" gutterBottom sx={titleStyle}>
                     PORTFOLIO
                 </Typography>
@@ -78,7 +78,7 @@ const Header = () => {
                     </Grid>
 
                 </Grid> */}
-                
+
             </Grid>
         </Box>
     )
