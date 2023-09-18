@@ -33,7 +33,7 @@ const Header = () => {
     return (
         <Box>
             <Box style={{ width: "100%", position: "relative", }}>
-                <img src={BackgroundPicture} alt="sait-logo" style={{ width: "100%", }} />
+                <img src={BackgroundPicture} alt="hero-pic" style={{ width: "100%", }} />
                 <Typography variant="h1" align="center" gutterBottom sx={titleStyle}>
                     PORTFOLIO
                 </Typography>

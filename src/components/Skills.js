@@ -32,6 +32,7 @@ import VisualStudio from "../icons/visualstudio-plain.svg"
 import VSCode from "../icons/vscode-original.svg"
 import WordPress from "../icons/wordpress-plain.svg"
 import AdobeXD from "../icons/xd-line.svg"
+import AdMob from "../icons/admob.png"
 
 
 
@@ -75,6 +76,7 @@ const Skills = () => {
         { name: "Node.js", img: NodeJS },
         { name: "npm", img: npm },
         { name: "Unity", img: Unity },
+        { name: "AdMob", img: AdMob },
         { name: "Visual Studio", img: VisualStudio },
         { name: "Visual Studio Code", img: VSCode },
         { name: "Android Studio", img: androidStudio },
