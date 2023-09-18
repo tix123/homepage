@@ -9,8 +9,15 @@ import PtkLogo from "../icons/ptk-logo.png"
 import Stack from '@mui/material/Stack';
 import BackgroundPicture from "../img/background.jpg"
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { useEffect } from 'react';
+
 
 const Header = () => {
+
+    // loading picture
+    useEffect(() => {
+        new Image().src = BackgroundPicture
+    }, [])
 
     const titleStyle = {
         position: "absolute",
