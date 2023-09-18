@@ -54,6 +54,7 @@ const Projects = () => {
             skills: [
                 "C#",
                 "Unity",
+                "Google AdMob",
                 "Google Play Store",
             ],
             code_url: null,
