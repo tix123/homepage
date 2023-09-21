@@ -61,6 +61,19 @@ const Projects = () => {
             link_url: "https://play.google.com/store/apps/details?id=com.SeanChen.HappyBirdFriends"
         },
         {
+            title: "Lodgify Mockup",
+            image: lodgifyMockup,
+            skills: [
+                "React",
+                "Material UI",
+                "styled-components",
+                "HTML",
+                "CSS",
+            ],
+            code_url: "https://github.com/tix123/lodgify-mockup",
+            link_url: "https://tix123.github.io/lodgify-mockup/"
+        },
+        {
             title: "Logistics Company",
             image: logisticsCompany,
             skills: [
@@ -71,18 +84,6 @@ const Projects = () => {
             ],
             code_url: "https://github.com/tix123/logistics-company",
             link_url: "https://tix123.github.io/logistics-company/"
-        },
-        {
-            title: "Lodgify Mockup",
-            image: lodgifyMockup,
-            skills: [
-                "React",
-                "styled-components",
-                "HTML",
-                "CSS",
-            ],
-            code_url: "https://github.com/tix123/lodgify-mockup",
-            link_url: "https://tix123.github.io/lodgify-mockup/"
         },
         {
             title: "Life Countdown",
