@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.283f6367.css",
-    "main.js": "/homepage/static/js/main.93c8165d.js",
+    "main.js": "/homepage/static/js/main.341bea2b.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
     "static/media/background.jpg": "/homepage/static/media/background.97a24352e8d9d696335d.jpg",
     "static/media/happy_bird_friends.jpg": "/homepage/static/media/happy_bird_friends.c31d8796d9ed391a69ff.jpg",
@@ -9,7 +9,7 @@
     "static/media/taiwan_weather.jpg": "/homepage/static/media/taiwan_weather.08d40a05ecff98ee5b7a.jpg",
     "static/media/mariadb-logo-vert_blue-transparent.png": "/homepage/static/media/mariadb-logo-vert_blue-transparent.4f1043e311d01fcb4bab.png",
     "static/media/ptk-logo.png": "/homepage/static/media/ptk-logo.a963fc5893bdb15214e8.png",
-    "static/media/lodgify_mockup.jpg": "/homepage/static/media/lodgify_mockup.acec3e04a6184da6863a.jpg",
+    "static/media/lodgify_mockup.jpg": "/homepage/static/media/lodgify_mockup.6a6493d57dec59ce2858.jpg",
     "static/media/HeidiSQL_logo_image.png": "/homepage/static/media/HeidiSQL_logo_image.2d86a973025e35f2397e.png",
     "static/media/csp_logo.png": "/homepage/static/media/csp_logo.617a770998f97916be42.png",
     "static/media/sait-logo.svg": "/homepage/static/media/sait-logo.6892e7b62737acfe12638b5cb5e47a2a.svg",
@@ -37,11 +37,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.283f6367.css.map": "/homepage/static/css/main.283f6367.css.map",
-    "main.93c8165d.js.map": "/homepage/static/js/main.93c8165d.js.map",
+    "main.341bea2b.js.map": "/homepage/static/js/main.341bea2b.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.283f6367.css",
-    "static/js/main.93c8165d.js"
+    "static/js/main.341bea2b.js"
   ]
 }
