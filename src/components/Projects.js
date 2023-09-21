@@ -61,7 +61,7 @@ const Projects = () => {
             link_url: "https://play.google.com/store/apps/details?id=com.SeanChen.HappyBirdFriends"
         },
         {
-            title: "Lodgify Mockup",
+            title: "Hotel Booking System",
             image: lodgifyMockup,
             skills: [
                 "React",
@@ -79,6 +79,7 @@ const Projects = () => {
             skills: [
                 "React",
                 "styled-components",
+                "JavaScript",
                 "HTML",
                 "CSS",
             ],
