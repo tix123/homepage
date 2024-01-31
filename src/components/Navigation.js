@@ -34,6 +34,8 @@ const Navigation = (props) => {
         // fontWeight: "bold",
         "&:hover": {
             backgroundColor: "transparent",
+            textDecoration: "underline 3px",
+            textUnderlineOffset: "8px"
         },
     })
 
@@ -47,19 +49,19 @@ const Navigation = (props) => {
         <Grid container justifyContent="space-between" alignItems="center" sx={containerStyle}>
 
             <Grid item>
-                <Stack direction="row" spacing={3}>
-                    <NaviButton onClick={() => scrollDown(props.projectSection)}>
-                        <Typography variant="h6" sx={textStyle}>
+                <Stack direction="row" spacing={{ xs: 2, sm: 3}}>
+                    <NaviButton color="error" onClick={() => scrollDown(props.projectSection)}>
+                        <Typography variant="h5" sx={textStyle}>
                             PROJECTS
                         </Typography>
                     </NaviButton>
-                    <NaviButton onClick={() => scrollDown(props.skillSection)}>
-                        <Typography variant="h6" sx={textStyle}>
+                    <NaviButton color="error" onClick={() => scrollDown(props.skillSection)}>
+                        <Typography variant="h5" sx={textStyle}>
                             SKILLS
                         </Typography>
                     </NaviButton>
-                    <NaviButton onClick={() => scrollDown(props.linkSection)}>
-                        <Typography variant="h6" sx={textStyle}>
+                    <NaviButton color="error" onClick={() => scrollDown(props.linkSection)}>
+                        <Typography variant="h5" sx={textStyle}>
                             LINKS
                         </Typography>
                     </NaviButton>

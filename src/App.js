@@ -89,7 +89,7 @@ function App() {
             </Box>
             {showTopBtn ? (
                 <Fab
-                    color="primary"
+                    color="success"
                     onClick={goToTop}
                     sx={{
                         position: "fixed",

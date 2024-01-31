@@ -152,7 +152,7 @@ const Projects = () => {
                                                     )}
 
                                                     <Button
-                                                        variant="outlined"
+                                                        variant="contained"
                                                         startIcon={<NearMeIcon />}
                                                         href={item.link_url}
                                                         rel="noreferrer"
