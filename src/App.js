@@ -4,9 +4,7 @@ import { ThemeProvider, createTheme, responsiveFontSizes, } from '@mui/material/
 import CssBaseline from '@mui/material/CssBaseline';
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
-import Fab from '@mui/material/Fab';                                                                
-import PublishIcon from '@mui/icons-material/Publish';
+import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 // Section components
@@ -18,12 +16,10 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 
 
-
 function App() {
 
-    const [mode, setMode] = React.useState("light");
-
-    const [showTopBtn, setShowTopBtn] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(() => false);
+    const [showTopBtn, setShowTopBtn] = useState(() => false);
 
     const projectSection = useRef(null);
     const skillSection = useRef(null);
@@ -41,7 +37,7 @@ function App() {
 
     const theme = responsiveFontSizes(createTheme({
         palette: {
-            mode: mode,
+            mode: isDarkMode ? "dark" : "light",
         },
     }));
 
@@ -64,8 +60,8 @@ function App() {
             <CssBaseline />
             <Box>
                 <Navigation
-                    mode={mode}
-                    setMode={setMode}
+                    isDarkMode={isDarkMode}
+                    setIsDarkMode={setIsDarkMode}
                     projectSection={projectSection}
                     skillSection={skillSection}
                     linkSection={linkSection}
@@ -101,7 +97,6 @@ function App() {
             ) : (
                 <></>
             )}
-
 
         </ThemeProvider>
     );
