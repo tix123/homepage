@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.283f6367.css",
-    "main.js": "/homepage/static/js/main.7a7538a8.js",
+    "main.js": "/homepage/static/js/main.5a2bc800.js",
     "static/js/787.8eac6610.chunk.js": "/homepage/static/js/787.8eac6610.chunk.js",
     "static/media/background.jpg": "/homepage/static/media/background.97a24352e8d9d696335d.jpg",
     "static/media/happy_bird_friends.jpg": "/homepage/static/media/happy_bird_friends.c31d8796d9ed391a69ff.jpg",
@@ -37,11 +37,11 @@
     "static/media/npm-original-wordmark.svg": "/homepage/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/visualstudio-plain.svg": "/homepage/static/media/visualstudio-plain.1f9992b2ae3455e3a1035445e6d322da.svg",
     "main.283f6367.css.map": "/homepage/static/css/main.283f6367.css.map",
-    "main.7a7538a8.js.map": "/homepage/static/js/main.7a7538a8.js.map",
+    "main.5a2bc800.js.map": "/homepage/static/js/main.5a2bc800.js.map",
     "787.8eac6610.chunk.js.map": "/homepage/static/js/787.8eac6610.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.283f6367.css",
-    "static/js/main.7a7538a8.js"
+    "static/js/main.5a2bc800.js"
   ]
 }
