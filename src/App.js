@@ -14,7 +14,7 @@ import Skills from "./components/Skills";
 import Links from "./components/Links";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-
+import NavBar from './components/NavBar';
 
 function App() {
 
@@ -59,13 +59,20 @@ function App() {
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Box>
-                <Navigation
+                <NavBar
                     isDarkMode={isDarkMode}
                     setIsDarkMode={setIsDarkMode}
                     projectSection={projectSection}
                     skillSection={skillSection}
                     linkSection={linkSection}
                 />
+                {/* <Navigation
+                    isDarkMode={isDarkMode}
+                    setIsDarkMode={setIsDarkMode}
+                    projectSection={projectSection}
+                    skillSection={skillSection}
+                    linkSection={linkSection}
+                /> */}
             </Box>
             <Box >
                 <Header />
@@ -85,7 +92,7 @@ function App() {
             </Box>
             {showTopBtn ? (
                 <Fab
-                    color="success"
+                    color="primary"
                     onClick={goToTop}
                     sx={{
                         position: "fixed",
