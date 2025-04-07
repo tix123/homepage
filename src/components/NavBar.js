@@ -12,7 +12,6 @@ import Box from "@mui/material/Box";
 const NavBar = (props) => {
   const boldStyle = {
     fontWeight: "bold",
-    // display: { xs: "none", sm: "block" },
   };
 
   const switchMode = () => {
@@ -36,8 +35,7 @@ const NavBar = (props) => {
             <Typography
               component="span"
               variant="h4"
-              // sx={{ display: { xs: 'none' } }}
-              sx={boldStyle}
+              fontWeight="bold"
             >
               PORTFOLIO
             </Typography>
@@ -50,31 +48,39 @@ const NavBar = (props) => {
                         <GitHubIcon fontSize="large" />
                     </Button> */}
 
-          <Box sx={{ flexGrow: 1 }} justifyContent="end" display="flex" gap={3} alignItems="center" >
-            <Button
-              color="inherit"
-              onClick={() => scrollDown(props.projectSection)}
-            >
-              <Typography variant={linkFont} sx={boldStyle}>
-                PROJECTS
-              </Typography>
-            </Button>
-            <Button
-              color="inherit"
-              onClick={() => scrollDown(props.skillSection)}
-            >
-              <Typography variant={linkFont} sx={boldStyle}>
-                SKILLS
-              </Typography>
-            </Button>
-            <Button
-              color="inherit"
-              onClick={() => scrollDown(props.linkSection)}
-            >
-              <Typography variant={linkFont} sx={boldStyle}>
-                LINKS
-              </Typography>
-            </Button>
+          <Box
+            sx={{ flexGrow: 1 }}
+            justifyContent="end"
+            display="flex"
+            gap={3}
+            alignItems="center"
+          >
+            <Box display={{ xs: "none", md: "block"}}>
+              <Button
+                color="inherit"
+                onClick={() => scrollDown(props.projectSection)}
+              >
+                <Typography variant={linkFont} sx={boldStyle}>
+                  PROJECTS
+                </Typography>
+              </Button>
+              <Button
+                color="inherit"
+                onClick={() => scrollDown(props.skillSection)}
+              >
+                <Typography variant={linkFont} sx={boldStyle}>
+                  SKILLS
+                </Typography>
+              </Button>
+              <Button
+                color="inherit"
+                onClick={() => scrollDown(props.linkSection)}
+              >
+                <Typography variant={linkFont} sx={boldStyle}>
+                  LINKS
+                </Typography>
+              </Button>
+            </Box>
             <Box>
               <DarkModeSwitch
                 onChange={switchMode}
